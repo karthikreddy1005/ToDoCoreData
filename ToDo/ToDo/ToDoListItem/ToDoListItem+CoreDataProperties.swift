@@ -19,6 +19,7 @@ extension ToDoListItem {
     @NSManaged public var createdAt: Date?
     @NSManaged public var name: String?
     @NSManaged public var isCompleted: Bool
+    @NSManaged public var priority: Int64
 
 }
 
